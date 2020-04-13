@@ -30,7 +30,7 @@ public class Problem2 {
 		System.out.print("What you had for breakfast:\n");
 		
 		while(fileScanner.hasNext()) { // this reads the file
-		s = fileScanner.next(); // ohhhh s is the input
+		s = fileScanner.next(); 
 		System.out.print(s + " ");
 		if (s.toLowerCase().charAt(s.length()-1) == 's') // just counting the # of s in the input
 		countS++;
