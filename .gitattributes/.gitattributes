@@ -15,3 +15,5 @@ Api.elm linguist-generated
 *.kicad_pcb linguist-detectable
 *.sch linguist-detectable
 tools/export_bom.py -linguist-detectable
+
+vim: syntax=java
